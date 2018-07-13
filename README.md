@@ -18,28 +18,27 @@ Pero primero quiero necesito hacer:
 4. Subir más reporsitorios de los codigo que tengo
 
 ### Un código chafa jaja
-:::c
-#define Hola (1)
+    :::c
+    #define Hola (1)
 
-unsigned char a = Hola;
+    unsigned char a = Hola;
 
-int main(void){
-  if(a == 1){
-    return 0;
-  }
-}
-
+    int main(void){
+      if(a == 1){
+        return 0;
+      }
+    }
+    
 ***
 
 Las tablas por ejemplo, estan bien monas.
-| Cabeza 1 | Cabeza 2 |
------------------------
-| Celda 1  | Celda 2  |
-| Celda 1  | Celda 2  |
-| Celda 1  | Celda 2  |
-| Celda 1  | Celda 2  |
------------------------
+
+| Cabecera A | Cabecera B |
+| ---------- | ---------- |
+| Campo A0   | Campo B0   |
+| Campo A1   | Campo B1   |
 
 Esto es un texto con nota al pie [^1]
+
 [^1]: Esto es una nota al pie de página.
 
